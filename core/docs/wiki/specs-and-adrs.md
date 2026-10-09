@@ -2,14 +2,14 @@
 
 The repository carries two useful design-history systems:
 
-- ADRs in [doc/adr](../../../docs/adr), which document durable architecture decisions.
+- ADRs in [docs/adr](../../../docs/adr), which document durable architecture decisions.
 - Spec Kit feature specs in [specs](../specs), which document planned and recently implemented feature work.
 
 Use both before making architectural changes. Specs often explain the "why now"; ADRs explain decisions intended to outlive a single feature.
 
 ## ADR Index
 
-The table of contents is [doc/adr/toc.md](../../../docs/adr/toc.md).
+The table of contents is [docs/adr/toc.md](../../../docs/adr/toc.md).
 
 Current ADRs:
 
@@ -60,6 +60,8 @@ Date-prefixed ADRs:
 | [2026-09-25](../../../docs/adr/2026-09-25-separate-workflow-connection-sharing-authorization.md) | Separate workflow connection sharing from grant management and use. |
 | [2026-09-27](../../../docs/adr/2026-09-27-dedicated-connection-metadata-inspection-policy.md) | Decide connection metadata inspection with its own host policy. (Supersedes 2026-09-25 inspection boundary.) |
 | [2026-09-28](../../../docs/adr/2026-09-28-lockstep-consolidated-release-and-publisher-cutover.md) | Release the consolidated packages in lockstep and cut publishers over at 3.10.0. |
+| [2026-10-08](../../../docs/adr/2026-10-08-durable-event-admission-and-isolated-execution.md) | Durable event admission with isolated local execution. |
+| [2026-10-08](../../../docs/adr/2026-10-08-product-directory-boundaries.md) | Give Core, Extensions and Studio separate root directories. Supersedes the folder-location decision in 2026-09-23. |
 
 ## Active And Recent Specs
 
